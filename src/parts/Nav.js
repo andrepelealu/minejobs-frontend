@@ -22,7 +22,7 @@ export default function Nav() {
             </a></Link>
           </div>
           <div>
-            <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-white hover:bg-orange-400 mt-4 lg:mt-0 bg-blue-500">Perusahaan</a>
+            <Link href="/perusahaan"><a class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-white hover:bg-orange-400 mt-4 lg:mt-0 bg-blue-500">Perusahaan</a></Link>
           </div>
         </div>
       </nav>

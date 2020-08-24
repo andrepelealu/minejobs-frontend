@@ -15,7 +15,7 @@ export default function dashboard() {
                     <div className=" ml-10 hidden items-center sm:flex ">
                         <input class="border border-gray-500 rounded text-black ml-10 mr-0 bg-white  shadow  py-2 px-4 block w-full hover:w-10" type="text" placeholder="Cari Pekerjaan Impian"/>
                         <a href="#" class="border border-gray-500 mr-5 ml-0 text-sm py-3 px-3  leading-none    text-white  hover:border-transparent hover:text-white hover:bg-gray-200 lg:mt-0 bg-transparent">
-                            <img src="http://localhost:3000/images/search-icon.png"/></a>
+                            <img src={`${process.env.NEXT_PUBLIC_BASE_URL}/images/search-icon.png`}/></a>
                     </div>
                 </div>
                 
